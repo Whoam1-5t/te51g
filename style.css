@@ -1,0 +1,133 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  overflow-y: auto; /* Menambahkan pengguliran vertikal */
+}
+
+.login-container {
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+  padding: 30px;
+  width: 350px;
+  text-align: center;
+  margin: 20px 0; /* Mengubah margin untuk memberi ruang di atas dan bawah */
+}
+
+.login-container2 {
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+  padding: 30px;
+  width: 350px;
+  text-align: center;
+  margin: 0;
+}
+
+.login-container img {
+  width: 175px;
+  margin-bottom: 20px;
+}
+
+.login-container input {
+  width: 90%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  background-color: #fafafa;
+  box-sizing: border-box;
+}
+
+.login-container button {
+  font-size: 16px;
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  background-color: rgb(99, 176, 249);
+  color: #fff;
+  cursor: pointer;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.login-container .forgot-password {
+  margin: 10px 0;
+  color: #3897f0;
+  text-decoration: none;
+}
+
+.login-container .signup-link {
+  margin: 0px;
+}
+
+.login-container .forgot-password {
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+
+.login-container .signup-link a {
+  color: #3897f0;
+  text-decoration: none;
+}
+
+.login-container .divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 20px 0;
+  font-size: 12px;
+}
+
+.login-container .divider::before,
+.login-container .divider::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.login-container .divider::before {
+  margin-right: 0.25em;
+}
+
+.login-container .divider::after {
+  margin-left: 0.25em;
+}
+
+.login-container .social-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.login-container .social-login img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.footer {
+  text-align: center;
+  margin: 20px 0 20px 0; /* Menambahkan margin di atas dan bawah */
+  font-size: 12px;
+  color: #999;
+}
+
+.footer a {
+  color: #00376b;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.footer select {
+  margin-top: 10px;
+  padding: 5px;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  background-color: #fafafa;
+}
