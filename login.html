@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Instagram Login</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #fafafa;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+      .login-container {
+        background-color: #fff;
+        border: 1px solid #dbdbdb;
+        padding: 40px;
+        width: 350px;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      .login-container img {
+        width: 175px;
+        margin-bottom: 20px;
+      }
+      .login-container input {
+        width: 100%;
+        padding: 10px;
+        margin: 5px 0;
+        border: 1px solid #dbdbdb;
+        border-radius: 3px;
+        background-color: #fafafa;
+      }
+      .login-container button {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border: none;
+        border-radius: 3px;
+        background-color: #3897f0;
+        color: #fff;
+        font-weight: bold;
+        cursor: pointer;
+      }
+      .login-container .forgot-password {
+        margin: 10px 0;
+        color: #3897f0;
+        text-decoration: none;
+      }
+      .login-container .signup-link {
+        margin-top: 20px;
+      }
+      .login-container .signup-link a {
+        color: #3897f0;
+        text-decoration: none;
+      }
+      .login-container .divider {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin: 20px 0;
+      }
+      .login-container .divider::before,
+      .login-container .divider::after {
+        content: "";
+        flex: 1;
+        border-bottom: 1px solid #dbdbdb;
+      }
+      .login-container .divider::before {
+        margin-right: 0.25em;
+      }
+      .login-container .divider::after {
+        margin-left: 0.25em;
+      }
+      .login-container .social-login {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+      }
+      .login-container .social-login img {
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+      }
+      .footer {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 12px;
+        color: #999;
+      }
+      .footer a {
+        color: #00376b;
+        text-decoration: none;
+        margin: 0 5px;
+      }
+      .footer select {
+        margin-top: 10px;
+        padding: 5px;
+        border: 1px solid #dbdbdb;
+        border-radius: 3px;
+        background-color: #fafafa;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="login-container">
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png"
+        alt="Instagram Logo"
+      />
+      <form action="#">
+        <input
+          type="text"
+          name="username"
+          placeholder="Phone number, username, or email"
+          required
+        />
+        <input
+          type="password"
+          name="password"
+          placeholder="Password"
+          required
+        />
+        <button type="submit">Log In</button>
+      </form>
+      <div class="divider">OR</div>
+      <div class="social-login">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg"
+          alt="Facebook Logo"
+        />
+        <a href="https://www.facebook.com/">Log in with Facebook</a>
+      </div>
+      <div class="signup-link">
+        Don't have an account?
+        <a href="https://www.instagram.com/accounts/emailsignup/">Sign up</a>
+      </div>
+    </div>
+    <div class="footer">
+      <div>
+        <a href="https://about.instagram.com/">About</a>
+        <a href="https://help.instagram.com/">Help</a>
+        <a href="https://about.instagram.com/blog/">Press</a>
+        <a href="https://www.instagram.com/developer/">API</a>
+        <a href="https://www.instagram.com/about/jobs/">Jobs</a>
+        <a href="https://help.instagram.com/519522125107875">Privacy</a>
+        <a href="https://help.instagram.com/581066165581870">Terms</a>
+        <a href="https://www.instagram.com/explore/locations/">Locations</a>
+        <a href="https://www.instagram.com/directory/profiles/">Top Accounts</a>
+        <a href="https://www.instagram.com/explore/tags/">Hashtags</a>
+        <a href="https://www.instagram.com/">Language</a>
+      </div>
+      <select>
+        <option value="en">English</option>
+        <option value="es">Español</option>
+        <option value="fr">Français</option>
+        <option value="de">Deutsch</option>
+        <option value="it">Italiano</option>
+        <option value="pt">Português</option>
+      </select>
+      <div>&copy; 2023 Instagram</div>
+    </div>
+  </body>
+</html>
